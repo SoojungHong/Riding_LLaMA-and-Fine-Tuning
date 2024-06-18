@@ -58,6 +58,8 @@ The command should be ran like following.
 
 <pre>(conda_env) <font color="#8AE234"><b>soojung@soojung-X299-UD4</b></font>:<font color="#729FCF"><b>~/llama</b></font>$ torchrun --nproc_per_node 1 example_chat_completion.py --ckpt_dir /home/soojung/llama-2-7b-chat/ --tokenizer_path /home/soojung/tokenizer.model --max_seq_len 512 --max_batch_size 6</pre>
 
+* if I run the command in my computer, I see memory error.
+  
 ### Use this script to convert parameters to HuggingFace and run the test question
 
 reference : https://ai.meta.com/blog/5-steps-to-getting-started-with-llama-2/
