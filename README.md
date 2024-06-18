@@ -13,6 +13,7 @@ In the instruction,`In a conda env with PyTorch / CUDA available clone and downl
 A conda environment is a directory that contains a specific collection of conda packages that you have installed. 
 
 #### 1. How to set up conda? 
+Conda allows you to create separate environments, each containing their own files, packages, and package dependencies. The contents of each environment do not interact with each other.
 
 The following URL contains how to set up conda . 
 
