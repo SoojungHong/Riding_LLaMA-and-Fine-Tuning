@@ -65,4 +65,4 @@ reference : https://ai.meta.com/blog/5-steps-to-getting-started-with-llama-2/
 1. put script test_script.py in root (~)
 2. activate conda environment with command : `(base) soojung@soojung-X299-UD4:~$ conda activate conda_env`
 3. When you see the conda_env is activated, then run the script : `(conda_env) soojung@soojung-X299-UD4:~$ python test_script.py`
-4. You see from the command line as loading the parameters : Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████| 3/3 [00:06<00:00,  2.25s/it]
+4. You see from the command line as loading the parameters : Loading checkpoint shards: 100%|█████████████████████████████████████████████████████| 3/3 [00:06<00:00,  2.25s/it]
