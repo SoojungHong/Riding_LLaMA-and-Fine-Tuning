@@ -54,6 +54,7 @@ torchrun --nproc_per_node 1 example_chat_completion.py \
 ```
 
 The LLaMA directories are following. (llama-2-7b, llama-2-7b-chat, tokenizer.model)
+The downloaded pre-trained model 'llama-2-7b-chat-hf' is about 13.5GB. 
 The command should be ran like following. 
 
 <pre>(conda_env) <font color="#8AE234"><b>soojung@soojung-X299-UD4</b></font>:<font color="#729FCF"><b>~/llama</b></font>$ torchrun --nproc_per_node 1 example_chat_completion.py --ckpt_dir /home/soojung/llama-2-7b-chat/ --tokenizer_path /home/soojung/tokenizer.model --max_seq_len 512 --max_batch_size 6</pre>
